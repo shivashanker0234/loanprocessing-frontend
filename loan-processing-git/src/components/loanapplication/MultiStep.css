@@ -1,0 +1,12 @@
+.multistep-bar {
+    width: 100%;
+    padding-left: 40px;
+    /* height: 100%; */
+    /* background-color: rgb(0, 0, 0); */
+    /* margin-bottom: 0px; */
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+.loan li::before {
+  background-color: red;
+}

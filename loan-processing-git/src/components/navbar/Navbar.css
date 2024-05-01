@@ -1,0 +1,125 @@
+/* CSS for the Navbar */
+.navbar {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  padding: 5px 20px;
+  width: 100%;
+  cursor: pointer;
+  background-color: rgb(224, 98, 25);
+  box-shadow: 0 5px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Blockchain Logo CSS */
+.blockchain-logo img {
+  width: 50px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Navigation Links CSS */
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  justify-content:baseline;
+}
+
+.navbar li {
+  margin-right: 50px;
+  position: relative;
+  cursor: pointer;
+}
+
+.navbar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.navbar a:hover {
+  background-color: #42c5ce;
+}
+
+/* Dropdown Menu CSS */
+.navbar li:hover ul {
+  display: block;
+}
+
+.navbar ul ul {
+  display: none;
+  position: absolute;
+  top: 100%; /* Ensure it appears below the parent item */
+  left: 0;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 1;
+}
+
+.navbar ul ul li {
+  padding: 5px;
+  width: 100%;
+  /* position: relative; */
+}
+
+.navbar ul ul li:hover {
+  background-color: #f0f0f0;
+  width:100%;
+}
+
+/* Login Button CSS */
+.login-button {
+  position: fixed;
+  top: 12px;
+  right: 10px;
+  cursor: pointer;
+  padding: 5px 15px;
+  background-color: rgb(7, 186, 117);
+  color: #fff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
+
+.menu-btn {
+  /* margin: 30px; */
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 3px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid #949599;
+
+  /* background-color: dimgrey; */
+}
+.css-vj11vy {
+  height: 100vh;
+  background-color: black;
+}
+
+
+.css-ewdv3l {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  /* background: red; */
+  height: 100%;
+}
+
+.css-12w9als {
+  /* background-color: red; */
+  color: #949599;
+}
+
+.css-1t8x7v1 >.ps-menu-button:hover svg{
+  fill: black;
+}
+

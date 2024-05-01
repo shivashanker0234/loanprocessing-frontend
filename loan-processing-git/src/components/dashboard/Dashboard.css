@@ -1,0 +1,119 @@
+.dashboard-container {
+  background-color: whitesmoke;
+  /* margin-left: 50px; */
+  /* width: 100%; */
+  padding: 20px;
+  width: 100vw;
+  justify-content: center;
+    display: grid;
+}
+.dashboard-inner-container {
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+}
+.dashboard-card {
+  width: 210px;
+  height: 110px;
+  background-color: #74EBD5;
+  background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);  box-shadow: 0 0 10px black;
+  /* margin-right: 20px; */
+  /* position:relative; */
+  color: black;
+  border-radius: 5px;
+  /* padding-left: 10px; */
+  /* padding-right: 10px; */
+}
+.dashboard-card-bar {
+  width: 100%;
+  height: 5px;
+  background-color: blueviolet;
+  /* position:relative; */
+}
+.home-icons {
+ display: flex;
+ justify-content: end;
+  margin: 2px;
+  /* position:fixed; */
+}
+.dashboard-card-item {
+  position: relative;
+}
+.dashboard-card-item h2 {
+  /* position: absolute; */
+  margin: 15px 0px 0px 10px;
+}
+
+.dashboard-card-item p {
+
+  margin: 10px 0px 0px 5px;   /* Adjust this value based on your preference for the space between h3 and p */
+}
+.dashboard-footer-container {
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+}
+.doughnut-chart {
+  padding: 10px;
+  margin-top: 60px;
+  height: 320px;
+  width: 320px;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  box-shadow: 0 0 10px black;
+  background-color: #74EBD5;
+  background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+
+  /* box-shadow: 0 0 10px rgba(14, 12, 12, 0.5); */
+
+  /* background-color: black; */
+  /* position:relative; */
+  /* margin-top:auto; */
+  /* margin-left:auto; */
+}
+
+.dashboard-footer-data {
+  margin-top: 60px;
+  height: 320px;
+  width: 600px;
+  border-radius: 5px;
+  /* border: 1px solid black; */
+  /* background-color: white; */
+  background-color: #74EBD5;
+  background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+  color: black;
+  box-shadow: 0 0 10px black;
+  /* box-shadow: 0 0 10px rgba(14, 12, 12, 0.5); */
+  overflow-y: auto;
+
+}
+
+
+.dashboard-table-custom {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+.dashboard-table-header-custom {
+  background-color: #9FACE6;
+  color: black;
+}
+
+.dashboard-table-body-custom tr:hover {
+  background-color: #9FACE6;
+  color: black;
+}
+
+.dashboard-table-cell-custom {
+  border: 1px solid grey;
+  padding: 8px;
+  text-align: left;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+tr:hover {
+  background-color: white;
+  color: black;
+} 

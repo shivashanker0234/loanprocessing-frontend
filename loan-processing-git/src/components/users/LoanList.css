@@ -1,0 +1,48 @@
+.borrowerList-container {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  overflow: auto;
+}
+
+.borrower-search {
+  padding: 20px 20px 20px 0px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  background-color: #74ebd5;
+  background-image: linear-gradient(90deg, #74ebd5 0%, #9face6 100%);
+}
+
+.loan-table-header {
+  background-color: #9face6;
+  color: black;
+  border: 1px solid grey;
+
+}
+
+.table-body tr:hover {
+  background-color: #9face6;
+  color: black;
+}
+
+.loan-table-cell {
+  border: 1px solid grey;
+  padding: 8px;
+  text-align: center;
+  font-weight: 500;
+}
+.loan-list-button {
+  width: 100px;
+  height: 40px;
+  margin-bottom: 20px;
+  margin-right: 30px;
+  background-color: #9face6;
+  border-radius: 3px;
+}
+.loan-list-button:hover{
+    background-color: #74ebd5;
+}

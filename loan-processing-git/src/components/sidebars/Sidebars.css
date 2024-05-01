@@ -1,0 +1,76 @@
+.menu-btn {
+  /* margin: 30px; */
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 3px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid #949599;
+
+  /* background-color: dimgrey; */
+}
+.css-vj11vy {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  height: 100%;
+  background-color: #9FACE6;
+  color: black;
+background-image: linear-gradient(90deg, #9FACE6 97%, #9FACE6  99%);
+
+  /* background-color: 	#1a0000 */
+  
+}
+
+
+.css-ewdv3l {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  /* background: red; */
+  height: 100vh;
+}
+
+.css-12w9als {
+  /* background-color: red; */
+  color: black;
+  /* scale: 10; */
+}
+
+
+.css-1t8x7v1 >.ps-menu-button:hover {
+  fill: black;
+}
+
+.css-wx7wi4 {color: black;}
+/* .css-1t8x7v1 >.ps-menu-button {
+  background-color: red;
+} */
+
+
+.user-info {
+  /* background-color: #eb0707; */
+  /* color: white; */
+  /* font-weight: bold; */
+  width: 177px;
+  /* height: 100%; */
+  margin-left: 10px;
+  padding-top: 7px;
+/* border: 0px; */
+}
+.user-info-image {
+  width: 100%;
+  height: 70px;
+  /* object-fit: cover; */
+  box-shadow:none;
+  margin-bottom: 10px;
+  /* border: 2px solid; */
+  
+}
+.menu-item{
+  color: white;
+}
+
